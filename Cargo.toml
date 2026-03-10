@@ -1,0 +1,10 @@
+[package]
+name = "promptfix"
+version = "0.1.0"
+edition = "2021"
+description = "T9-style spelling suggestions for terminal prompts"
+license = "MIT"
+
+[[bin]]
+name = "promptfix"
+path = "src/main.rs"
