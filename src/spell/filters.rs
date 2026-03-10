@@ -41,6 +41,10 @@ pub fn recent_word_spans(text: &str, max_words: usize) -> Vec<WordSpan> {
     spans[start..].to_vec()
 }
 
+pub fn is_prompt_candidate(token: &str) -> bool {
+    should_check_token(token, false)
+}
+
 fn should_check_token(token: &str, is_first_word: bool) -> bool {
     if token.len() < 3 {
         return false;

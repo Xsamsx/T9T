@@ -5,6 +5,10 @@ edition = "2021"
 description = "T9-style spelling suggestions for terminal prompts"
 license = "MIT"
 
+[dependencies]
+crossterm = "0.28.1"
+portable-pty = "0.8.1"
+
 [target.'cfg(target_os = "macos")'.dependencies]
 cocoa = "0.26.1"
 objc = "0.2.7"

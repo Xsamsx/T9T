@@ -52,6 +52,14 @@ impl SpellEngine {
         let _ = writeln!(output, "APPLY {}", corrected);
         Ok(output)
     }
+
+    pub fn suggest_prompt_word(&self, word: &str) -> Result<Option<String>, String> {
+        if !filters::is_prompt_candidate(word) {
+            return Ok(None);
+        }
+
+        macos::first_suggestion(word)
+    }
 }
 
 #[derive(Clone, Debug)]

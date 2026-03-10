@@ -1,3 +1,4 @@
+mod interactive;
 mod spell;
 
 use std::env;
@@ -19,6 +20,10 @@ fn run() -> Result<(), String> {
             let report = engine.check_text(&text)?;
             print!("{report}");
             Ok(())
+        }
+        Some("exec") => {
+            let (program, program_args) = parse_exec_args(args)?;
+            interactive::run(program, program_args)
         }
         Some("help") | Some("--help") | Some("-h") | None => {
             print_usage();
@@ -51,8 +56,19 @@ fn print_usage() {
     println!();
     println!("USAGE:");
     println!("  promptfix check --text \"Explian how neurel networks works\"");
+    println!("  promptfix exec codex");
+    println!("  promptfix exec claude");
+    println!("  promptfix exec gemini");
     println!();
     println!("OUTPUT:");
     println!("  MESSAGE <original> <replacement> <start> <end>");
     println!("  APPLY <corrected text>");
+}
+
+fn parse_exec_args(mut args: impl Iterator<Item = String>) -> Result<(String, Vec<String>), String> {
+    let program = args
+        .next()
+        .ok_or_else(|| String::from("usage: promptfix exec <codex|claude|gemini> [args...]"))?;
+
+    Ok((program, args.collect()))
 }
