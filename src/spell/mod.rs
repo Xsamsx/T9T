@@ -1,5 +1,5 @@
 mod filters;
-mod hunspell;
+mod macos;
 
 use std::fmt::Write;
 
@@ -20,13 +20,10 @@ impl SpellEngine {
             return Ok(String::new());
         }
 
-        let checked_words: Vec<&str> = recent.iter().map(|span| &text[span.start..span.end]).collect();
-        let hunspell = hunspell::check_words(&checked_words)?;
-
         let mut corrections = Vec::new();
         for span in recent {
             let token = &text[span.start..span.end];
-            if let Some(replacement) = hunspell.first_suggestion(token) {
+            if let Some(replacement) = macos::first_suggestion(token)? {
                 if replacement != token {
                     corrections.push(Correction {
                         original: token.to_string(),

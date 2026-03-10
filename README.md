@@ -53,4 +53,6 @@ source "$(brew --prefix)/share/promptfix/promptfix.zsh"
 
 ## Dependencies
 
-PromptFix V1 expects a local `hunspell` binary with the `en_US` dictionary installed.
+PromptFix V1 now uses the macOS system spellchecker via `NSSpellChecker`.
+
+There is no separate spellchecker dependency to install with Homebrew.
