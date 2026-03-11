@@ -89,9 +89,9 @@ You can swap `codex` for `claude` or `gemini`.
 If you want it to feel native in your shell:
 
 ```bash
-alias codex='/Users/trysudo/Documents/project/t9t/target/release/promptfix exec codex'
-alias claude='/Users/trysudo/Documents/project/t9t/target/release/promptfix exec claude'
-alias gemini='/Users/trysudo/Documents/project/t9t/target/release/promptfix exec gemini'
+alias codex='/path/to/t9t/target/release/promptfix exec codex'
+alias claude='/path/to/t9t/target/release/promptfix exec claude'
+alias gemini='/path/to/t9t/target/release/promptfix exec gemini'
 ```
 
 ## How It Works
@@ -138,7 +138,7 @@ APPLY Explian how neural networks works
 The earlier shell-buffer prototype still exists:
 
 ```bash
-source /Users/trysudo/Documents/project/t9t/share/promptfix.zsh
+source /path/to/t9t/share/promptfix.zsh
 ```
 
 That version only works before a command launches. It does not affect an already-running interactive CLI.
