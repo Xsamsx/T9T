@@ -28,6 +28,8 @@
 
 ## Demo
 
+[![T9T demo preview](./assets/demo-preview.gif)](https://github.com/Xsamsx/T9T/raw/main/assets/Demo.mp4)
+
 [Open the demo video](https://github.com/Xsamsx/T9T/raw/main/assets/Demo.mp4)
 
 ## Why This Exists
