@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme-hero.svg" alt="T9T hero" width="980" />
+  <img src="https://raw.githubusercontent.com/Xsamsx/T9T/main/assets/readme-hero.svg?v=7405946" alt="T9T hero" width="980" />
 </p>
 
 <p align="center">
