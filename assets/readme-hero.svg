@@ -1,11 +1,11 @@
-<svg width="1600" height="820" viewBox="0 0 1600 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="86" y1="72" x2="1501" y2="739" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFF3D6"/>
       <stop offset="0.48" stop-color="#F6F1E8"/>
       <stop offset="1" stop-color="#DCEAFB"/>
     </linearGradient>
-    <linearGradient id="panel" x1="1132" y1="184" x2="449" y2="673" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="1518" y1="184" x2="835" y2="673" gradientUnits="userSpaceOnUse">
       <stop stop-color="#111827"/>
       <stop offset="1" stop-color="#1F2937"/>
     </linearGradient>
@@ -13,7 +13,7 @@
       <stop stop-color="#1D4ED8"/>
       <stop offset="1" stop-color="#0F766E"/>
     </linearGradient>
-    <filter id="shadow" x="366" y="124" width="852" height="548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="shadow" x="752" y="124" width="852" height="548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dy="20"/>
@@ -25,49 +25,49 @@
     </filter>
   </defs>
 
-  <rect width="1600" height="820" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="760" rx="36" fill="url(#bg)"/>
   <circle cx="1385" cy="131" r="118" fill="#F59E0B" fill-opacity="0.16"/>
   <circle cx="161" cy="699" r="154" fill="#0EA5E9" fill-opacity="0.12"/>
   <circle cx="1246" cy="650" r="186" fill="#10B981" fill-opacity="0.08"/>
 
-  <rect x="112" y="116" width="176" height="48" rx="24" fill="url(#chip)"/>
-  <text x="146" y="147" fill="white" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="700">macOS only</text>
+  <rect x="76" y="116" width="176" height="48" rx="24" fill="url(#chip)"/>
+  <text x="100" y="147" fill="white" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="700">macOS only</text>
 
-  <text x="112" y="268" fill="#0F172A" font-family="ui-rounded, &quot;SF Pro Rounded&quot;, &quot;Avenir Next&quot;, &quot;Trebuchet MS&quot;, sans-serif" font-size="132" font-weight="800">T9T</text>
-  <text x="112" y="354" fill="#0F172A" font-family="ui-rounded, &quot;SF Pro Rounded&quot;, &quot;Avenir Next&quot;, &quot;Trebuchet MS&quot;, sans-serif" font-size="44" font-weight="700">T9 for terminal AI</text>
+  <text x="76" y="268" fill="#0F172A" font-family="ui-rounded, &quot;SF Pro Rounded&quot;, &quot;Avenir Next&quot;, &quot;Trebuchet MS&quot;, sans-serif" font-size="132" font-weight="800">T9T</text>
+  <text x="76" y="354" fill="#0F172A" font-family="ui-rounded, &quot;SF Pro Rounded&quot;, &quot;Avenir Next&quot;, &quot;Trebuchet MS&quot;, sans-serif" font-size="46" font-weight="700">T9 for terminal AI</text>
 
-  <text x="112" y="432" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="28">
-    <tspan x="112" dy="0">A local spelling layer for Codex, Claude, and Gemini.</tspan>
-    <tspan x="112" dy="40">Fix obvious prompt typos in the terminal without touching</tspan>
-    <tspan x="112" dy="40">paths, flags, URLs, or code-like tokens.</tspan>
+  <text x="76" y="432" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="28">
+    <tspan x="76" dy="0">A local spelling layer for Codex, Claude, and Gemini.</tspan>
+    <tspan x="76" dy="40">Fix obvious prompt typos in the terminal without touching</tspan>
+    <tspan x="76" dy="40">paths, flags, URLs, or code-like tokens.</tspan>
   </text>
 
   <g filter="url(#shadow)">
-    <rect x="414" y="152" width="756" height="452" rx="28" fill="url(#panel)"/>
-    <rect x="414" y="152" width="756" height="58" rx="28" fill="#0B1220"/>
-    <circle cx="461" cy="181" r="8" fill="#F87171"/>
-    <circle cx="491" cy="181" r="8" fill="#FBBF24"/>
-    <circle cx="521" cy="181" r="8" fill="#34D399"/>
+    <rect x="800" y="152" width="756" height="452" rx="28" fill="url(#panel)"/>
+    <rect x="800" y="152" width="756" height="58" rx="28" fill="#0B1220"/>
+    <circle cx="847" cy="181" r="8" fill="#F87171"/>
+    <circle cx="877" cy="181" r="8" fill="#FBBF24"/>
+    <circle cx="907" cy="181" r="8" fill="#34D399"/>
 
-    <text x="566" y="189" fill="#94A3B8" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24">codex via t9t</text>
+    <text x="952" y="189" fill="#94A3B8" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24">codex via t9t</text>
 
-    <text x="466" y="284" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">
-      <tspan x="466" dy="0">$ codex</tspan>
-      <tspan x="466" dy="68">></tspan>
+    <text x="852" y="286" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">
+      <tspan x="852" dy="0">$ codex</tspan>
+      <tspan x="852" dy="68">></tspan>
       <tspan dx="16" fill="#FCA5A5">Explian</tspan>
       <tspan dx="14" fill="#E2E8F0">how</tspan>
       <tspan dx="14" fill="#FCA5A5">neurel</tspan>
       <tspan dx="14" fill="#E2E8F0">networks works</tspan>
     </text>
 
-    <rect x="456" y="388" width="672" height="2" fill="#334155"/>
+    <rect x="842" y="388" width="672" height="2" fill="#334155"/>
 
-    <text x="466" y="468" fill="#A7F3D0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">
-      <tspan x="466" dy="0">></tspan>
+    <text x="852" y="468" fill="#A7F3D0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">
+      <tspan x="852" dy="0">></tspan>
       <tspan dx="16">Explain how neural networks works</tspan>
     </text>
 
-    <rect x="812" y="500" width="272" height="56" rx="18" fill="#0F766E"/>
-    <text x="848" y="536" fill="white" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">flow preserved</text>
+    <rect x="1164" y="500" width="272" height="56" rx="18" fill="#0F766E"/>
+    <text x="1200" y="536" fill="white" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">flow preserved</text>
   </g>
 </svg>

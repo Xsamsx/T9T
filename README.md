@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme-hero.svg" alt="T9T hero" width="100%" />
+  <img src="./assets/readme-hero.svg" alt="T9T hero" width="980" />
 </p>
 
 <p align="center">
