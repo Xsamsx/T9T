@@ -22,6 +22,14 @@
   <code>Explian how neurel networks works</code> becomes cleaner without leaving the keyboard.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Xsamsx/T9T/raw/main/assets/Demo.mp4"><strong>Watch the 1-minute demo</strong></a>
+</p>
+
+## Demo
+
+[Open the demo video](https://github.com/Xsamsx/T9T/raw/main/assets/Demo.mp4)
+
 ## Why This Exists
 
 Terminal AI sessions are fast. Your fingers are faster. The result is a steady stream of small prompt typos that break flow and make your inputs noisier than they need to be.
